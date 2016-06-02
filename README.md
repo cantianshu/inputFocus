@@ -1,5 +1,5 @@
 
-
+<code>
 <style type="text/css">
 /*样式需要自定义，以下参考*/
 *{margin:0;padding:0;}
@@ -126,4 +126,4 @@ $('#name1').inputFocus({
   </div>
 </div>
 -->
-
+</code>
