@@ -1,9 +1,4 @@
-<!DOCTYPE>
-<html><head>
-	<meta charset="utf-8">
-	<title>输入框关联提示</title>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-  <script type="text/javascript" src="inputfocus.js"></script>
+
 
 <style type="text/css">
 /*样式需要自定义，以下参考*/
@@ -52,19 +47,16 @@ input{
   }
 </style>
 
-</head>
-<body>
+
 <script>
 //依赖jquery1.6以上
 $(function () {
-
 /*
 //调用方式一： 输入固定内容 数组 过滤显示相关内容
 $('input').inputFocus({ 
             source: [ "c++", "java", "php", "coldfusion", "javascript", "asp", "ruby" ]
         });
 */
-
 
 //调用方式二： 输入固定内容， 过滤 开头相关内容
 var tags = [ "c++", "java", "php", "coldfusion", "javascript", "asp", "ruby" ];
@@ -76,7 +68,6 @@ $('#name1').inputFocus({
                   }) );
               } 
           });
-
 
  /*
  //调用方式三： 传入 服务路径， 动态请求api 读库显示相关内容
@@ -113,20 +104,14 @@ $('#name1').inputFocus({
 
 });
 
-
 </script>
-<div>
-
-<br/><br/><br/><br/>
 
   <center>
     <p><label>姓名</label><input id="name1" type="text" name="name" /></p>
-
   </center>
-
   <p><label>姓名</label><input id="name" type="text" name="name" /></p>
 
-</div>
+
 <!--  弹框内容 静态dom
 <div id="pannel-wrap" class="focus-wrap" style="display:none;">
   <div class="inner">
@@ -142,5 +127,3 @@ $('#name1').inputFocus({
 </div>
 -->
 
-</body>
-</html>
