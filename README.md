@@ -1,7 +1,6 @@
 
-<code>
-<style type="text/css">
-/*样式需要自定义，以下参考*/
+-----------/*样式需要自定义，以下参考*/-----------------------
+
 *{margin:0;padding:0;}
 input{
     padding: 0 0 0 10px;
@@ -45,10 +44,10 @@ input{
     display: block;
     padding-left: 10px;
   }
-</style>
+-----------------------------------------------------------------------
 
 
-<script>
+-----------------------------------------------------
 //依赖jquery1.6以上
 $(function () {
 /*
@@ -104,15 +103,15 @@ $('#name1').inputFocus({
 
 });
 
-</script>
-
+-----------------------------------------------------------------
+<!-- 
   <center>
     <p><label>姓名</label><input id="name1" type="text" name="name" /></p>
   </center>
   <p><label>姓名</label><input id="name" type="text" name="name" /></p>
 
 
-<!--  弹框内容 静态dom
+ 弹框内容 静态dom
 <div id="pannel-wrap" class="focus-wrap" style="display:none;">
   <div class="inner">
     <ul class="list">
@@ -126,4 +125,4 @@ $('#name1').inputFocus({
   </div>
 </div>
 -->
-</code>
+---------------------------------------------------------------------
